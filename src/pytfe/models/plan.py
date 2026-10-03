@@ -24,6 +24,7 @@ class PlanStatus(str, Enum):
     PLAN_QUEUED = "queued"
     PLAN_RUNNING = "running"
     PLAN_UNREACHABLE = "unreachable"
+    PLAN_AGENT_QUEUED = "agent_queued"
 
 
 class Plan(TFEModel):
